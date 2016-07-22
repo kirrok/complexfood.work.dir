@@ -1,8 +1,17 @@
 body {
   padding-top: 20px;
-  padding-bottom: 20px;
 }
 
+.lower-cap {
+    min-height:200px;
+    background-color: #0C8312;
+    color: #fff ;
+    font-size: 25px;
+    width: 100%;
+}
+.main-content {
+    min-height: 600px;
+}
 .navbar {
   margin-bottom: 20px;
 }
