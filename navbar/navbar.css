@@ -1,19 +1,62 @@
 body {
   padding-top: 20px;
+
 }
 
 .lower-cap {
+    margin-top: 20px;
     min-height:200px;
     background-color: #0C8312;
     color: #fff ;
     font-size: 25px;
     width: 100%;
 }
-.main-content {
+#main-content {
     min-height: 600px;
+    martin-left:0;
+    martin-right:0;
+    parring-left:0;
 }
 .navbar {
   margin-bottom: 20px;
 }
 
+.intermediate-header {
+    color: #0C8312;
+    text-align: center;
+    font-weight: 700;
+    font-family: Times;
+}
+.align-center {
+clear: both;
+display: block;
+margin-left:auto;
+margin-right: auto;
+}
 
+.why {
+    font-size:20px;
+    color:#555;
+}
+
+.button-big {
+    font-size:25px;
+    width:300px;
+    margin-bottom: 20px;
+    text-transform:uppercase;
+    border: 1px solid #ccc;
+    background-color: #0C8312;
+    color:#fff;
+    text-weight:900;
+}
+.button-big:hover {
+    font-size:25px;
+    width:300px;
+    margin-bottom: 20px;
+    text-transform:uppercase;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    color:#0C8312;
+    text-weight:900;
+
+}
