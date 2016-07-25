@@ -9,7 +9,8 @@ body {
     background-color: #0C8312;
     color: #fff ;
     font-size: 25px;
-    width: 100%;
+    width:100%;
+    padding: 0 0 0 0;
 }
 #main-content {
     min-height: 600px;
@@ -59,4 +60,56 @@ margin-right: auto;
     color:#0C8312;
     text-weight:900;
 
+}
+
+.menu-bar {
+    font-size: 14px;
+    color: #333;
+}
+.food-header {
+    border-bottom: solid 1px rgb(119, 188, 82)
+}
+.set-info .btn-default {
+    border-color: rgb(140, 198, 63);
+}
+.set-info .btn-default:hover {
+    background-color: rgb(140, 198, 63);
+    color: white;
+}
+.basket {
+    background: url(../basket.png) no-repeat 6px center;
+    padding-left:40px;
+    background-color: #fff;
+}
+.set-info .basket: hover{
+    background:  rgb(140, 198, 63) url(../basket.png) no-repeat 6px center;
+    padding-left:40px;
+}
+
+.price span{
+    font-size:23px;
+}
+.price{
+    color: rgb(140, 198, 63);
+    float:right;
+    font-size: 18px;
+}
+
+.choose-bar a{
+    font-size:18px;
+    color: #333;
+    margin-left:40px;
+}
+.detailed-description p {
+    font-size:14px;
+}
+
+.detailed-description span {
+    color:rgb(140, 198, 63);
+    font-size:25px;
+}
+
+.detailed-description .price-list{
+    font-size:20px;
+    color:#333;
 }
