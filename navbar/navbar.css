@@ -40,7 +40,7 @@ margin-right: auto;
     color:#555;
 }
 
-.button-big {
+.button-big:hover  {
     font-size:25px;
     width:300px;
     margin-bottom: 20px;
@@ -50,12 +50,12 @@ margin-right: auto;
     color:#fff;
     text-weight:900;
 }
-.button-big:hover {
+.button-big{
     font-size:25px;
     width:300px;
     margin-bottom: 20px;
     text-transform:uppercase;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(119, 188, 82);
     background-color: #fff;
     color:#0C8312;
     text-weight:900;
