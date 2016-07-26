@@ -158,3 +158,50 @@ margin-right: auto;
     margin-bottom: 20px;
     height: 52px;
 }
+
+.collapse-menu-btn {
+    font-size:18px;
+    width:150px;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius:7px;;
+    background-color: rgb(140, 198, 63);
+    color:#fff;
+}
+.diet {
+    width: 60%;
+    margin-left:65px;
+}
+.diet table {
+    width: 100%;
+}
+.product {
+    width: 60%;
+    display: inline-table;
+
+}
+.calories{
+    width:10%;
+    float:right
+    display: inline-table;
+}
+.pfc {
+    width:30%;
+    text-family:Arial;
+    font-size:17px;
+    text-transform: uppercase;
+    display: inline-table;
+
+}
+.diet tr {
+    border-bottom: 1px dashed #009245;
+}
+.diet p {
+    margin: 5px 0px 5px 0px;
+}
+.day-number {
+    color:rgb(140, 198, 63);
+    text-decoration: underline;
+}
