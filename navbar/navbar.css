@@ -113,3 +113,48 @@ margin-right: auto;
     font-size:20px;
     color:#333;
 }
+.title {
+    color: rgb(140, 198, 63);
+    font-family: Helvetica;
+    line-height: 40px;
+    font-size:30px;
+    display: block;
+}
+
+.decor {
+    padding-left: 70px;
+    panndin-right: 70px;
+    width: 625px;
+}
+
+.time-container {
+    width:555px;
+    height: 65px;
+    margin-top:40px;
+    margin-bottom: 40px;
+    background-color: rgb(140, 198, 63);
+}
+.time-info {
+    background: url(../clock.png) no-repeat 20px center;
+    color: #fff;
+    height: 65px;
+    padding-left:70px;
+    font-size:12px;
+    padding-top: 23px;
+}
+.price-table{
+    border-top: 1px solid #D0D0D0;
+    border-bottom: 1px solid #D0D0D0;
+    padding-top: 10px;
+    text-family: Arial;
+    margin-bottom:30px;
+}
+.data-input {
+    width:400px;
+    border: 1px solid #ccc;
+    padding-left:15px;
+    vertical-align: middle;
+    padding: 6px 8px;
+    margin-bottom: 20px;
+    height: 52px;
+}
